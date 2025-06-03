@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: flasktime
+  description: Python app that displays time - named flasktime
+  annotations:
+    github.com/project-slug: sahil7879/flasktime
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: developer
+  lifecycle: experimental
