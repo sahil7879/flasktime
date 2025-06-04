@@ -10,5 +10,4 @@ spec:
   type: service
   owner: developer
   lifecycle: experimental
-  dependencyOf:
-    - component:default/pythonflaskdemo
+
